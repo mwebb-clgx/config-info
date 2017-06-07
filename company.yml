@@ -1,5 +1,10 @@
 ---
 spring:
   profiles: cloud
+    
+eureka:
+  instance:
+    hostname: company-mwebb.cfapps.io
+    nonSecurePort: 80
   
 message: This is a message from the config server!
