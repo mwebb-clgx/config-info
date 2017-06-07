@@ -1,5 +1,11 @@
 ---
 spring:
   profiles: cloud
+    
+eureka:
+  instance:
+    hostname: roster-mwebb.cfapps.io
+    nonSecurePort: 80
+  
   
 message: This is a roster message from the config server!
