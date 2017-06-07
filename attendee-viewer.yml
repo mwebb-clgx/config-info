@@ -1,1 +1,10 @@
-
+---
+spring:
+  profiles: cloud
+    
+eureka:
+  instance:
+    hostname: attendee-viewer-mwebb.cfapps.io
+    nonSecurePort: 80
+  
+message: This is a UI message from the config server!
