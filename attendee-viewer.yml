@@ -1,4 +1,21 @@
 ---
+security:
+  basic:
+    enabled: false
+  oauth2:
+    client:
+      clientId: ${CLIENT_ID}
+      clientSecret: ${CLIENT_SECRET}
+      accessTokenUri: https://github.com/login/oauth/access_token
+      userAuthorizationUri: https://github.com/login/oauth/authorize
+      clientAuthenticationScheme: form
+      preEstablishedRedirectUri: https://attendee-viewer-mwebb.cfapps.io/login
+      registered-redirect-uri: https://attendee-viewer-mwebb.cfapps.io/login
+      use-current-uri: false
+    resource:
+      userInfoUri: https://api.github.com/user
+
+---
 spring:
   profiles: cloud
     
