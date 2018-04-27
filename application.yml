@@ -7,3 +7,5 @@ eureka:
   client:
     serviceUrl:
       defaultZone: http://username:password@service-registry-mwebb.cfapps.io/eureka 
+      
+corelogic: this is our value
