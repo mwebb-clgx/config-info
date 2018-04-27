@@ -9,3 +9,4 @@ eureka:
       defaultZone: http://username:password@service-registry-mwebb.cfapps.io/eureka 
       
 corelogic: this is our value
+core2: Here is another CIS testing property
